@@ -1,0 +1,694 @@
+fileFormatVersion: 2
+guid: 767777da1a80be744a3e3458d9bebfeb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6606119818816554448
+    second: ruleta spritesheet_0
+  - first:
+      213: 4404020540552415642
+    second: ruleta spritesheet_1
+  - first:
+      213: 3591361535225610258
+    second: ruleta spritesheet_2
+  - first:
+      213: -1648580506624310989
+    second: ruleta spritesheet_3
+  - first:
+      213: 6156318881219954455
+    second: ruleta spritesheet_4
+  - first:
+      213: 4819760886037665
+    second: ruleta spritesheet_5
+  - first:
+      213: -5813665884475412304
+    second: ruleta spritesheet_6
+  - first:
+      213: -4670666294246899133
+    second: ruleta spritesheet_7
+  - first:
+      213: -5610116618355722616
+    second: ruleta spritesheet_8
+  - first:
+      213: 5714065518996973359
+    second: ruleta spritesheet_9
+  - first:
+      213: 5762723998843010951
+    second: ruleta spritesheet_10
+  - first:
+      213: -3205557797334861322
+    second: ruleta spritesheet_11
+  - first:
+      213: -1417983376906812357
+    second: ruleta spritesheet_12
+  - first:
+      213: -7091032381939614496
+    second: ruleta spritesheet_13
+  - first:
+      213: 5936306081790202300
+    second: ruleta spritesheet_14
+  - first:
+      213: 5556212090394602150
+    second: ruleta spritesheet_15
+  - first:
+      213: -8022374817389608730
+    second: ruleta spritesheet_16
+  - first:
+      213: 3690959672883718670
+    second: ruleta spritesheet_17
+  - first:
+      213: 8745127082280417348
+    second: ruleta spritesheet_18
+  - first:
+      213: -7965451469373709676
+    second: ruleta spritesheet_19
+  - first:
+      213: 7488796304029219663
+    second: ruleta spritesheet_20
+  - first:
+      213: 2085582093602492738
+    second: ruleta spritesheet_21
+  - first:
+      213: 9091619389291007815
+    second: ruleta spritesheet_22
+  - first:
+      213: 4769982529981294741
+    second: ruleta spritesheet_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ruleta spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 1923
+        height: 1084
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d58a3879f6adab50800000000000000
+      internalID: 6606119818816554448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruleta spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 1088
+        width: 105
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99862f19593e1d30800000000000000
+      internalID: 4404020540552415642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruleta spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 2313
+        y: 591
+        width: 943
+        height: 636
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210cf17d94417d130800000000000000
+      internalID: 3591361535225610258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruleta spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 3545
+        y: 1078
+        width: 592
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 331460783c01f19e0800000000000000
+      internalID: -1648580506624310989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruleta spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 1078
+        width: 613
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7174527a763af6550800000000000000
+      internalID: 6156318881219954455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruleta spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 4971
+        y: 1088
+        width: 132
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1acb3870c8f111000800000000000000
+      internalID: 4819760886037665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruleta spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 5464
+        y: 1107
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b039012ea5b15fa0800000000000000
+      internalID: -5813665884475412304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruleta spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 5817
+        y: 1147
+        width: 111
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342060b60c57e2fb0800000000000000
+      internalID: -4670666294246899133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruleta spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 6497
+        y: 346
+        width: 1324
+        height: 705
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8863466c8acd422b0800000000000000
+      internalID: -5610116618355722616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruleta spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 7250
+        y: 1151
+        width: 100
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f276f1ba0507c4f40800000000000000
+      internalID: 5714065518996973359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruleta spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 5462
+        y: 1039
+        width: 56
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78ff7a9d1fe49ff40800000000000000
+      internalID: 5762723998843010951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruleta spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 5518
+        y: 1040
+        width: 184
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f93fd6ca229383d0800000000000000
+      internalID: -3205557797334861322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruleta spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 6077
+        y: 977
+        width: 110
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b348f0aa1af425ce0800000000000000
+      internalID: -1417983376906812357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruleta spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 3872
+        y: 758
+        width: 110
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ec72b75e97979d90800000000000000
+      internalID: -7091032381939614496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruleta spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 4778
+        y: 935
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb19813fdeef16250800000000000000
+      internalID: 5936306081790202300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruleta spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 4336
+        y: 864
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa63b84571ab1d40800000000000000
+      internalID: 5556212090394602150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruleta spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 4726
+        y: 791
+        width: 109
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e00472ab9ccaa090800000000000000
+      internalID: -8022374817389608730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruleta spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 4960
+        y: 285
+        width: 523
+        height: 638
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0aa686544ce83330800000000000000
+      internalID: 3690959672883718670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruleta spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 4336
+        y: 810
+        width: 46
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448f8f66fbeec5970800000000000000
+      internalID: 8745127082280417348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruleta spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 417
+        width: 704
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 492ed546718057190800000000000000
+      internalID: -7965451469373709676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruleta spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 4453
+        y: 156
+        width: 449
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b7be8af8c8de760800000000000000
+      internalID: 7488796304029219663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruleta spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 2519
+        y: 237
+        width: 542
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 241971f3dd971fc10800000000000000
+      internalID: 2085582093602492738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruleta spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 5673
+        y: 280
+        width: 302
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f8eb34aabeb2e70800000000000000
+      internalID: 9091619389291007815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ruleta spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 5358
+        y: 108
+        width: 982
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 598aa5ca6d1623240800000000000000
+      internalID: 4769982529981294741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
