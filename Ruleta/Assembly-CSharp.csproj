@@ -57,6 +57,7 @@
      <Compile Include="Assets\Game\Scripts\Player.cs" />
      <Compile Include="Assets\FlexReader\Excel2007\WorkBook.cs" />
      <Compile Include="Assets\FlexReader\Mapping\Mapper.cs" />
+     <Compile Include="Assets\Game\Scripts\FraseController.cs" />
      <Compile Include="Assets\FlexReader\Core\Row.cs" />
      <Compile Include="Assets\Game\Scripts\PlayersController.cs" />
      <Compile Include="Assets\StandaloneFileBrowser\Sample\CanvasSampleOpenFileText.cs" />
@@ -90,6 +91,7 @@
      <Compile Include="Assets\StandaloneFileBrowser\StandaloneFileBrowserEditor.cs" />
      <Compile Include="Assets\FlexReader\Converter\ValueConverter.cs" />
      <Compile Include="Assets\FlexReader\Converter\CustomConverters\RectConverter.cs" />
+     <Compile Include="Assets\Game\Scripts\Frase.cs" />
      <Compile Include="Assets\FlexReader\Mapping\TableMapper.cs" />
      <Compile Include="Assets\FlexReader\Converter\CustomConverters\DictionaryConverter.cs" />
      <Compile Include="Assets\FlexReader\Mapping\ITableGenerator.cs" />

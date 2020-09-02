@@ -15,14 +15,30 @@ public class GameController : MonoBehaviour
     public float RotationSpeed;
     private float _rotationSpeed;
     public bool Giro;
-    public Text[] textos;
+    public string[] textos;
+    private GameObject[] textosObj;
     public GameObject puntero;
+    public List<string> Seleccionadas;
+
+    [Header("Juego")] public GameObject Respuesta;
+
+    [Header("Abcedario")] public GameObject Content;
+    public List<GameObject> Letras = new List<GameObject>();
+    public GameObject LetraPrefab;
+    public bool visible;
+    public GameObject Panel;
     
     // Start is called before the first frame update
     void Start()
     {
         _rotationSpeed = RotationSpeed;
         Giro = false;
+        visible = true;
+        textosObj = GameObject.FindGameObjectsWithTag("ElementoRuleta");
+        for (int i = 0; i < textosObj.Length; i++)
+        {
+            textosObj[i].GetComponent<Text>().text = textos[i];
+        }
     }
 
     // Update is called once per frame
@@ -38,12 +54,12 @@ public class GameController : MonoBehaviour
                 print("Se detuvo");
                 float dist = Int32.MaxValue;
                 string select = ""; 
-                foreach (Text txt in textos)
+                foreach (GameObject txt in textosObj)
                 {
                     if (Vector3.Distance(txt.transform.position, puntero.transform.position) < dist)
                     {
                         dist = Vector3.Distance(txt.transform.position, puntero.transform.position);
-                        select = txt.text;
+                        select = txt.GetComponent<Text>().text;
                     }
                 }
                 print("Seleccion -> "+select);
@@ -67,6 +83,53 @@ public class GameController : MonoBehaviour
         yield return new WaitForSeconds(1f);
         RotationSpeed -= 0.5f;
     }
-    
+
+    public void VerificarLetra()
+    {
+        if (!string.IsNullOrEmpty(Respuesta.GetComponent<Text>().text))
+        {
+            if (!Seleccionadas.Contains(Respuesta.GetComponent<Text>().text))
+            {
+                Seleccionadas.Add(Respuesta.GetComponent<Text>().text);
+                print("Se verifica la letra: "+Respuesta.GetComponent<Text>().text);
+            }
+            else
+            {
+                print("Letra ya seleccionada");
+            }
+        }
+    }
+
+    public void VerLetras()
+    {
+        visible = !visible;
+        if (!visible)
+        {
+            Panel.SetActive(true);
+            foreach (string letra in Seleccionadas)
+            {
+                var tempLetra = Instantiate(LetraPrefab);
+                //Parent to the panel
+                tempLetra.transform.SetParent(Content.transform);
+                tempLetra.GetComponent<Text>().text = letra.ToUpper();
+                
+                Letras.Add(tempLetra);
+            }
+
+            visible = false;
+        }
+        else
+        {
+            Panel.SetActive(false);
+            if (Letras != null)
+            {
+                foreach (var score in Letras)
+                {
+                    Destroy(score);
+                }
+            }
+            visible = true;
+        }
+    }
     
 }

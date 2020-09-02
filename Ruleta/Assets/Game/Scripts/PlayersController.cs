@@ -20,10 +20,21 @@ public class PlayersController : MonoBehaviour
     public List<GameObject> Players;
     public GameObject PlayerItemTemplate;
     public GameObject Content;
+    
+    [Header("Tablero de puntuaciones")]
+    public GameObject textPrefab;
+    public GameObject ContentNombre;
+    public GameObject Tablero;
+    public GameObject ContentPuntaje;
+    public bool visible;
+    private List<GameObject> Scores = new List<GameObject>();
+
+    public GameObject ErrorPanel;
+    public Text ErrorMessage;
 
     void Start()
     {
-        
+        visible = true;
     }
 
     // Update is called once per frame
@@ -89,6 +100,91 @@ public class PlayersController : MonoBehaviour
             CurrentNumOfPlayers = sheet.Count;
             NumOfPlayersInputField.text = sheet.Count.ToString();
         }
+    }
+
+    public void SetPlayers()
+    {
+        ErrorPanel.SetActive(false);
+        if (!ValidatePlayersData())
+        {
+            ShowErrorPanel("Todos los jugadores deben tener un 'Nombre'");
+            return;
+        }
+
+        if (!ValidateNumberOfPlayers())
+        {
+            ShowErrorPanel("El número mínimo de jugadores requeridos es 2");
+            return;
+        }
+        foreach (var player in Players)
+        {
+            player.GetComponent<Player>().Name = player.GetComponent<InputField>().text;
+            player.GetComponent<Player>().Score = 0;
+        }
+    }
+    
+    public void Leaderboard()
+    {
+        visible = !visible;
+        if (!visible)
+        {
+            Tablero.SetActive(true);
+            foreach (var player in Players)
+            {
+                var tempNombre = Instantiate(textPrefab);
+                //Parent to the panel
+                tempNombre.transform.SetParent(ContentNombre.transform);
+                tempNombre.GetComponent<Text>().text = player.GetComponent<Player>().Name;
+            
+                var tempPuntaje = Instantiate(textPrefab);
+                //Parent to the panel
+                tempPuntaje.transform.SetParent(ContentPuntaje.transform);
+                tempPuntaje.GetComponent<Text>().text = player.GetComponent<Player>().Score.ToString();
+                
+                Scores.Add(tempNombre);
+                Scores.Add(tempPuntaje);
+            }
+
+            visible = false;
+        }
+        else
+        {
+            Tablero.SetActive(false);
+            if (Scores != null)
+            {
+                foreach (var score in Scores)
+                {
+                    Destroy(score);
+                }
+            }
+            visible = true;
+        }
+    }
+    public bool ValidatePlayersData()
+    {
+        foreach (var player in Players)
+        {
+            if (player.GetComponent<InputField>().text.Length < 3)
+            {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    public bool ValidateNumberOfPlayers()
+    {
+        if (Players.Count < 2)
+        {
+            return false;
+        }
+        return true;
+    }
+    public void ShowErrorPanel(string Error)
+    {
+        ErrorPanel.SetActive(true);
+        ErrorMessage.text = Error;
     }
     
     public void AddPlayerItemFromExcel(int index, string name)
